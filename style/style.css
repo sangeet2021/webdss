@@ -1,0 +1,326 @@
+* {
+}
+
+.container {
+  background-color: #1d1d1d;
+  color: #919191;
+}
+body {
+  font-family: "Arimo", sans-serif;
+}
+.nav {
+  margin-top: 0px;
+  width: 100%;
+  height: 50px;
+  background-color: #1d1d1d;
+  display: flex;
+  border-bottom: 1px solid #919191;
+  position: sticky;
+
+  z-index: 8;
+  top: 0px;
+}
+
+.nav-1 {
+  width: 35%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-1 img {
+  margin-left: 80px;
+}
+
+.nav-1 p {
+  display: inline;
+  margin-right: 20px;
+  font-size: 18px;
+}
+
+.nav-1 img {
+  margin-top: -10px;
+}
+
+.nav-2 {
+  display: flex;
+  width: 65%;
+  align-items: center;
+  font-size: 14px;
+  position: relative;
+}
+
+#srchbr {
+  position: absolute;
+  margin-left: 110px;
+  margin-top: 4px;
+}
+
+.nav-2 input {
+  float: left;
+  margin-left: 100px;
+  height: 25px;
+  width: 200px;
+  border-radius: 20px;
+  margin-top: 10px;
+  background-color: #1d1d1d;
+  color: #919191;
+  border: 2px solid #333;
+  font: bold;
+  padding: 4px 30px;
+  margin-top: 5px;
+  outline: none;
+}
+
+.nav-2 ul {
+  display: inline;
+  margin-top: 20px;
+}
+
+.nav-2 ul li {
+  list-style: none;
+  display: inline;
+  margin-left: 15px;
+}
+
+.nav-2 ul li:hover {
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#fok {
+  color: #6ac045;
+}
+
+#sn {
+  color: white;
+}
+
+.search-bar {
+  background-color: #171717;
+  margin-top: -58px;
+}
+
+.main-search {
+  margin-top: 60px;
+  margin-left: 200px;
+}
+
+.main-search p {
+  color: #919191;
+  font-size: 1.35em;
+  padding-top: 50px;
+}
+
+.main-search input {
+  height: 40px;
+  width: 950px;
+  background-color: #282828;
+  border: #919191;
+  color: #919191;
+  outline: none;
+}
+
+.main-search button {
+  height: 40px;
+  width: 100px;
+  margin-left: 20px;
+  background-color: #6ac045;
+  border-radius: 3px;
+  border-style: none;
+  color: white;
+  font-size: 16px;
+  outline: none;
+}
+
+.sec-search {
+  display: flex;
+  margin-left: 200px;
+  padding-bottom: 50px;
+}
+
+.search {
+  margin-left: 35px;
+}
+
+select {
+  width: 130px;
+  padding-left: 10px;
+  height: 40px;
+  background-color: #282828;
+  color: #919191;
+  border: none 3px;
+  outline: none;
+}
+
+#movno {
+  display: flex;
+  justify-content: center;
+  color: #6ac045;
+}
+
+.pages {
+  margin-left: 410px;
+}
+
+.pages ul li {
+  display: inline;
+  border: 1px solid #333;
+  color: white;
+  font-size: 16px;
+  padding: 12px;
+}
+
+.pages ul li:hover {
+  border: 1px solid #6ac045;
+  background-color: #6ac045;
+  transition: 0.4s;
+  cursor: pointer;
+}
+
+#hehe {
+  border: 1px solid #6ac045;
+  background-color: #6ac045;
+}
+
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  padding-top: 50px;
+  width: 100%;
+}
+
+.imz {
+  position: relative;
+  height: 250px;
+  width: 180px;
+  margin-left: 50px;
+  padding: 0;
+  border: solid 5px white;
+}
+
+.imgg {
+  width: 100%;
+  height: 240px;
+}
+
+.star {
+  height: 30px;
+  width: 30px;
+}
+
+.hidden {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0px;
+  left: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background: rgba(0, 0, 0, 0.6);
+  opacity: 0;
+}
+
+.hidden button {
+  background-color: #6ac045;
+  border: none;
+  border-radius: 3px;
+  width: 130px;
+  height: 35px;
+  margin: 30px;
+  color: white;
+  outline: none;
+}
+
+.hidden p {
+  color: white;
+}
+
+.hidden h4 {
+  color: white;
+  margin: 5px;
+}
+
+.imz:hover {
+  border: 5px solid #6ac045;
+  transition: 0.5s;
+
+  cursor: pointer;
+}
+
+.imz:hover .hidden {
+  opacity: 1;
+  transition: 0.3s;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.movie-name {
+  margin-left: 50px;
+  margin-top: -17px;
+  width: 190px;
+}
+
+.movie-name p {
+  color: white;
+  font-size: 18px;
+  font-family: "Arimo", sans-serif;
+  margin-top: 20px;
+}
+
+.movie-name p:hover {
+  cursor: pointer;
+  color: #919191;
+  transition: 0.3s;
+}
+
+.movie-name h5 {
+  margin-top: -15px;
+}
+
+.resolution {
+  margin-left: 50px;
+  display: flex;
+  margin-top: -15px;
+}
+
+.st {
+  background-color: #111;
+  width: 40px;
+  padding: 5px;
+  border-radius: 3px;
+}
+
+.td {
+  background-color: #111;
+  width: 40px;
+  padding: 5px;
+  border-radius: 3px;
+  margin-left: 5px;
+}
+
+#sn:hover {
+  color: #919191;
+  transition: 0.3s;
+}
+
+.resolution:hover {
+  cursor: pointer;
+}
+
+.st:hover,
+.td:hover {
+  color: white;
+  transition: 0.2s;
+}
+
+#srchbr:hover {
+  cursor: pointer;
+}
